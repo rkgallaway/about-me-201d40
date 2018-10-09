@@ -1,6 +1,24 @@
 body {
-    background-color: aquamarine
+    background-color: rgb(216, 221, 238);
 }
+
 h1 {
-    color: brown
+    color: rgb(28, 36, 3);
+    font-size: 150%;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(47, 56, 19);
+    font-size: 125%;
+    padding: 15px;
+}
+p {
+    padding: 10px;
+    color: rgb(78, 97, 15);
+}
+ul {
+    padding: 10px;
+    color: rgb(78, 97, 15);
 }
