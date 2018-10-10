@@ -63,3 +63,28 @@ if (answerFive === 'no' || answerFive === 'n'){
   alert('you Fail,  I do NOT drive to school, traffic makes me sad!')
   console.log('user got question 5 wrong');
 }
+//begin question 6
+
+var counter = 4
+while(counter > 0 && answerSix !== 17){
+  var answerSix = Number(prompt('I collect Fiestaware, I\'m fairly dedicated to this effort. Can you guess how many colors I have? You have attempts remaining'));
+  console.log(counter);
+  counter --;
+
+  if (answerSix === 17){
+    alert('That\'s correct! Impressive!');
+    console.log('user got question 6, correct!')
+  } else if (answerSix > 17){
+    alert('Unfortunately no that number is too high, but don\'t worry, you get ' + counter + ' more trys');
+    console.log('user got attempt wrong, too high')
+  } else if (answerSix <17){
+    alert('Unfortunately no that number is too low, but don\'t worry, you get ' + counter + ' more trys');
+    console.log('user got attempt wrong, too low')
+  }
+  if (counter === 0){
+    alert('unfortunately you are out of guesses, the correct answer is 17.  Thanks for trying ' + username +'!')
+  } 
+}
+
+//Question six finishes -don't break it Ryan
+//begin Question 7

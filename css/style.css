@@ -22,3 +22,8 @@ ul {
     padding: 10px;
     color: rgb(78, 97, 15);
 }
+ol {
+    padding-left: 50px;
+    color: rgb(78, 97, 15);
+    list-style-type: decimal; 
+}
