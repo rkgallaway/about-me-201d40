@@ -65,26 +65,50 @@ if (answerFive === 'no' || answerFive === 'n'){
 }
 //begin question 6
 
-var counter = 4
-while(counter > 0 && answerSix !== 17){
-  var answerSix = Number(prompt('I collect Fiestaware, I\'m fairly dedicated to this effort. Can you guess how many colors I have? You have attempts remaining'));
-  console.log(counter);
-  counter --;
+var counterQuestionSix = 4
+while(counterQuestionSix > 0 && answerSix !== 17){
+  var answerSix = Number(prompt('Ok, So I collect Fiesta ware and I\'m kind of a Fiesta-fanatic. Can you guess how many colors I have? You have ' + counterQuestionSix + ' attempts remaining'));
+  console.log(counterQuestionSix);
+  counterQuestionSix --;
 
   if (answerSix === 17){
     alert('That\'s correct! Impressive!');
     console.log('user got question 6, correct!')
   } else if (answerSix > 17){
-    alert('Unfortunately no that number is too high, but don\'t worry, you get ' + counter + ' more trys');
+    alert('Unfortunately no that number is too high, but don\'t worry, you get ' + counterQuestionSix + ' more trys');
     console.log('user got attempt wrong, too high')
   } else if (answerSix <17){
-    alert('Unfortunately no that number is too low, but don\'t worry, you get ' + counter + ' more trys');
+    alert('Unfortunately no that number is too low, but don\'t worry, you get ' + counterQuestionSix + ' more trys');
     console.log('user got attempt wrong, too low')
   }
-  if (counter === 0){
+  if (counterQuestionSix === 0){
     alert('unfortunately you are out of guesses, the correct answer is 17.  Thanks for trying ' + username +'!')
   } 
 }
 
 //Question six finishes -don't break it Ryan
 //begin Question 7
+
+//establish array use for loop?!
+var favoriteColors = ['peacock', 'turquoise', 'persimmon']
+
+var counterQuestionSeven = 6
+
+while(counterQuestionSeven > 0 && answerSeven !== favoriteColors[i]){
+
+  var answerSeven = prompt('Ok, So we\'ve established that I like my Fiesta ware. Can you guess one of my favorite colors? You have ' + counterQuestionSeven + ' attempts').toLowerCase();
+  console.log(counterQuestionSeven);
+  counterQuestionSeven --;
+}
+
+
+for (var i = 0; i < favoriteColors[i]; i++) if (answerSeven === favoriteColors[i]){
+  alert('Correct! That\'s on of my faves! Impressive! My favorite three colors are Peacock, Persimmon, and Turquoise');
+  console.log('user got question 7 correct')
+} else if (answerSeven !== favoriteColors[i]){
+  alert('Unfortunately no that is not one of my favorite colors, ' + counterQuestionSix + ' more trys');
+  console.log('user got question 7 wrong')
+} 
+if (counterQuestionSeven === 0){
+  alert('unfortunately you are out of guesses. My favorite three colors are Peacock, Persimmon, and Turquoise.  Thanks for trying ' + username +'!')
+}
