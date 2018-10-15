@@ -5,4 +5,6 @@ Moved question logic into functions
 Navigator: Ryan Gallaway
 Driver: Jared Pattison
 
-10/14/18 update about-me css and edit HTML
+10/14/18 update css and edit HTML
+
+after lab 5.2 I realized I still had my JS commented out.  fixing that now
