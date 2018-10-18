@@ -9,44 +9,76 @@ h1 {
     font-size: 200%;
     font-weight: bold;
     text-align: center;
-    /* margin-left: 50px;
-    margin-right: 50px; */
-    margin: 20px 50px 20px 50px;
-    border-bottom: 10px solid rgb(13, 25, 59);
-    padding: 20px
-    
+    margin: 20px 0px 20px 0px;
+    border-bottom: 5px solid rgb(13, 25, 59);
+    padding: 20px;
+    width: 915px;
 }
 
 h2 {
     color: rgb(10, 20, 51);
     font-size: 125%;
     padding: 10px;
-    background-color: rgba(116, 124, 151, 50%);
+    background-color: rgba(116, 124, 151, .50);
     margin-left: 15px;
     margin-right: 75%;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
 }
 
 p {
     padding: 10px;
     color: rgb(78, 97, 15);
-    background-color: beige;
+    background-color: rgba(116, 124, 151, .10);
+    border-radius: 25px;
     margin: 20px;
-    width: 50%;
+    width: 500px;
 }
+
+#image1 {
+    position: absolute;
+    border: none;
+    width: 270px;
+    top: 90px;
+    left: 575px;
+    padding: 0;
+}
+
+#image2 {
+    position: absolute;
+    border: none;
+    width: 270px;
+    top: 380px;
+    left: 575px;
+    padding: 0;
+}
+#image3 {
+    position: absolute;
+    border: none;
+    width: 270px;
+    top: 670px;
+    left: 575px;
+    padding: 0;
+}
+
+
 
 ul {
     padding-left: 30px;
     color: rgb(78, 97, 15);
     list-style-type: square;
-    background-color: beige;
-    width: 50%;
+    background-color: rgba(116, 124, 151, .10);
+    width: 500px;
     margin: 20px;
+    border-radius: 25px;
 }
 ol {
-    padding-left: 30px;
+    padding-left: 60px;
     color: rgb(78, 97, 15);
     list-style-type: decimal; 
-    background-color: beige;
-    width: 50%;
+    background-color: rgba(116, 124, 151, .10);
+    width: 500px;
     margin: 20px;
+    border-radius: 25px;
 }
